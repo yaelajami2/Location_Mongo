@@ -13,13 +13,13 @@ WORKDIR /src
 COPY ["./WebApplication14.csproj", ""]
 RUN dotnet restore "./WebApplication14.csproj"
 COPY . .
-WORKDIR "/src/WebApplication14"
-RUN dotnet build "WebApplication14.csproj" -c Release -o /app/build
+WORKDIR "./WebApplication14"
+RUN dotnet build "./WebApplication14.csproj" -c Release -o /app/build
 
 FROM build AS publish
-RUN dotnet publish "WebApplication14.csproj" -c Release -o /app/publish
+RUN dotnet publish "./WebApplication14.csproj" -c Release -o /app/publish
 
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "WebApplication14.dll"]
+ENTRYPOINT ["dotnet", "./WebApplication14\obj\Debug\net6.0\WebApplication14.dll"]
