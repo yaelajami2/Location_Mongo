@@ -1,25 +1,29 @@
-#See https://aka.ms/containerfastmode to understand how Visual Studio uses this Dockerfile to build your images for faster debugging.
-
-#Depending on the operating system of the host machines(s) that will build or run the containers, the image specified in the FROM statement may need to be changed.
-#For more information, please see https://aka.ms/containercompat
-
-FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS base
-WORKDIR /app
-EXPOSE 80
-EXPOSE 443
-EXPOSE 8080 
+# Use the official .NET SDK image for building the application
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
-WORKDIR /src
-COPY ["./WebApplication14.csproj", ""]
-RUN dotnet restore "./WebApplication14.csproj"
+
+# Set the working directory
+WORKDIR /app
+
+# Copy the project file and restore dependencies
+COPY *.csproj ./
+RUN dotnet restore
+# Copy the rest of the application code
 COPY . ./
 
-RUN dotnet build "./WebApplication14.csproj" -c Release -o /app/build
+# Publish the application
+RUN dotnet publish -c Release -o /app/publish
 
-FROM build AS publish
-RUN dotnet publish "./WebApplication14.csproj" -c Release -o /app/publish
+# Use the official .NET runtime image for running the application
+FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS runtime
 
-FROM base AS final
+# Set the working directory
 WORKDIR /app
-COPY --from=publish /app/publish .
+
+# Copy the build output
+COPY --from=build /app/publish .
+ENV ASPNETCORE_URLS=http://+:8080
+# Run the application
 ENTRYPOINT ["dotnet", "WebApplication14.dll"]
+EXPOSE 80
+EXPOSE 443
+
