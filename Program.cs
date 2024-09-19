@@ -1,12 +1,22 @@
 var builder = WebApplication.CreateBuilder(args);
 
-// äåñôú ùéøåúé Swagger
+// Add CORS service
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowSpecificOrigin", policyBuilder =>
+    {
+        policyBuilder.WithOrigins("http://localhost:4200") // Specify allowed origins
+                     .AllowAnyMethod() // Allow all HTTP methods (GET, POST, PUT, DELETE, etc.)
+                     .AllowAnyHeader(); // Allow all headers
+    });
+});
+// ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Swagger
 builder.Services.AddControllers();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-// Middleware ì-Swagger
+// Middleware ï¿½-Swagger
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -17,17 +27,20 @@ if (app.Environment.IsDevelopment())
 }
 
      
-builder.Services.AddCors(options =>
-{
-    options.AddPolicy("AllowSpecificOrigin", builder =>
-    {
-        builder.WithOrigins( "http://localhost:4200") // URL ùì äàôìé÷öéä ùìê
-               .AllowAnyMethod() // äúéø ëì ùéèú HTTP (GET, POST, PUT, DELETE åëå')
-               .AllowAnyHeader(); // äúéø ëì ëåúøú áá÷ùåú
-    });
-});
+
+
+// Enable CORS
+app.UseCors("AllowSpecificOrigin");
+
+// Other middleware (like routing, authorization, etc.)
 app.UseRouting();
+
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapControllers();
+});
+
 app.UseAuthorization();
 app.MapControllers();
+app.Run("http://0.0.0.0:8080"); // Ensure the app listens on 8080
 
-app.Run();
