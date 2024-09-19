@@ -22,4 +22,4 @@ RUN dotnet publish "./WebApplication14.csproj" -c Release -o /app/publish
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "./WebApplication14\obj\Debug\net6.0\WebApplication14.dll"]
+ENTRYPOINT ["dotnet", "WebApplication14.dll"]
