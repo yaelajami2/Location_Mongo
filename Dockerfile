@@ -23,3 +23,4 @@ FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "WebApplication14.dll"]
+RUN -p 8080:8080 webapplication14
