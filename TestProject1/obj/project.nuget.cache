@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "WchMxure9dj0bZ1I0Y1zWI6dRIDm3tWIk7SljG/7KiRsk4j6RYzmtkyRmuP4QHCl1XM+spMH5knOka7QknX9Lg==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\user1\\Desktop\\שנה ב\\c#_and_mongo_angular\\WebApplication14\\TestProject1\\TestProject1.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project WebApplication14 is not compatible with net5.0 (.NETCoreApp,Version=v5.0). Project WebApplication14 supports: net6.0 (.NETCoreApp,Version=v6.0)",
+      "libraryId": "WebApplication14",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user1\\Desktop\\\u05E9\u05E0\u05D4 \u05D1\\c#_and_mongo_angular\\WebApplication14\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F300B721-6815-465B-BEE8-DFAC92A7AD6D}|WebApplication14\\WebApplication14.csproj|c:\\users\\user1\\desktop\\\u05E9\u05E0\u05D4 \u05D1\\c#_and_mongo_angular\\webapplication14\\webapplication14\\managquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F300B721-6815-465B-BEE8-DFAC92A7AD6D}|WebApplication14\\WebApplication14.csproj|solutionrelative:webapplication14\\managquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F300B721-6815-465B-BEE8-DFAC92A7AD6D}|WebApplication14\\WebApplication14.csproj|c:\\users\\user1\\desktop\\\u05E9\u05E0\u05D4 \u05D1\\c#_and_mongo_angular\\webapplication14\\webapplication14\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{F300B721-6815-465B-BEE8-DFAC92A7AD6D}|WebApplication14\\WebApplication14.csproj|solutionrelative:webapplication14\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F300B721-6815-465B-BEE8-DFAC92A7AD6D}|WebApplication14\\WebApplication14.csproj|c:\\users\\user1\\desktop\\\u05E9\u05E0\u05D4 \u05D1\\c#_and_mongo_angular\\webapplication14\\webapplication14\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F300B721-6815-465B-BEE8-DFAC92A7AD6D}|WebApplication14\\WebApplication14.csproj|solutionrelative:webapplication14\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F300B721-6815-465B-BEE8-DFAC92A7AD6D}|WebApplication14\\WebApplication14.csproj|c:\\users\\user1\\desktop\\\u05E9\u05E0\u05D4 \u05D1\\c#_and_mongo_angular\\webapplication14\\webapplication14\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F300B721-6815-465B-BEE8-DFAC92A7AD6D}|WebApplication14\\WebApplication14.csproj|solutionrelative:webapplication14\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F300B721-6815-465B-BEE8-DFAC92A7AD6D}|WebApplication14\\WebApplication14.csproj|c:\\users\\user1\\desktop\\\u05E9\u05E0\u05D4 \u05D1\\c#_and_mongo_angular\\webapplication14\\webapplication14\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F300B721-6815-465B-BEE8-DFAC92A7AD6D}|WebApplication14\\WebApplication14.csproj|solutionrelative:webapplication14\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F300B721-6815-465B-BEE8-DFAC92A7AD6D}|WebApplication14\\WebApplication14.csproj|c:\\users\\user1\\desktop\\\u05E9\u05E0\u05D4 \u05D1\\c#_and_mongo_angular\\webapplication14\\webapplication14\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F300B721-6815-465B-BEE8-DFAC92A7AD6D}|WebApplication14\\WebApplication14.csproj|solutionrelative:webapplication14\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F300B721-6815-465B-BEE8-DFAC92A7AD6D}|WebApplication14\\WebApplication14.csproj|c:\\users\\user1\\desktop\\\u05E9\u05E0\u05D4 \u05D1\\c#_and_mongo_angular\\webapplication14\\webapplication14\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F300B721-6815-465B-BEE8-DFAC92A7AD6D}|WebApplication14\\WebApplication14.csproj|solutionrelative:webapplication14\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F300B721-6815-465B-BEE8-DFAC92A7AD6D}|WebApplication14\\WebApplication14.csproj|c:\\users\\user1\\desktop\\\u05E9\u05E0\u05D4 \u05D1\\c#_and_mongo_angular\\webapplication14\\webapplication14\\webapplication14.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{F300B721-6815-465B-BEE8-DFAC92A7AD6D}|WebApplication14\\WebApplication14.csproj|solutionrelative:webapplication14\\webapplication14.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F300B721-6815-465B-BEE8-DFAC92A7AD6D}|WebApplication14\\WebApplication14.csproj|c:\\users\\user1\\desktop\\\u05E9\u05E0\u05D4 \u05D1\\c#_and_mongo_angular\\webapplication14\\webapplication14\\webapplication14.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F300B721-6815-465B-BEE8-DFAC92A7AD6D}|WebApplication14\\WebApplication14.csproj|solutionrelative:webapplication14\\webapplication14.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\\u05E9\u05E0\u05D4 \u05D1\\c#_and_mongo_angular\\WebApplication14\\WebApplication14\\Dockerfile",
+              "RelativeDocumentMoniker": "WebApplication14\\Dockerfile",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\\u05E9\u05E0\u05D4 \u05D1\\c#_and_mongo_angular\\WebApplication14\\WebApplication14\\Dockerfile",
+              "RelativeToolTip": "WebApplication14\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-09-13T07:38:25.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ManagQuery.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\\u05E9\u05E0\u05D4 \u05D1\\c#_and_mongo_angular\\WebApplication14\\WebApplication14\\ManagQuery.cs",
+              "RelativeDocumentMoniker": "WebApplication14\\ManagQuery.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\\u05E9\u05E0\u05D4 \u05D1\\c#_and_mongo_angular\\WebApplication14\\WebApplication14\\ManagQuery.cs",
+              "RelativeToolTip": "WebApplication14\\ManagQuery.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T07:25:40.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\\u05E9\u05E0\u05D4 \u05D1\\c#_and_mongo_angular\\WebApplication14\\WebApplication14\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApplication14\\appsettings.json",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\\u05E9\u05E0\u05D4 \u05D1\\c#_and_mongo_angular\\WebApplication14\\WebApplication14\\appsettings.json",
+              "RelativeToolTip": "WebApplication14\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-13T07:18:12.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\\u05E9\u05E0\u05D4 \u05D1\\c#_and_mongo_angular\\WebApplication14\\WebApplication14\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "WebApplication14\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\\u05E9\u05E0\u05D4 \u05D1\\c#_and_mongo_angular\\WebApplication14\\WebApplication14\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "WebApplication14\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T07:07:45.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\\u05E9\u05E0\u05D4 \u05D1\\c#_and_mongo_angular\\WebApplication14\\WebApplication14\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "WebApplication14\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\\u05E9\u05E0\u05D4 \u05D1\\c#_and_mongo_angular\\WebApplication14\\WebApplication14\\WeatherForecast.cs",
+              "RelativeToolTip": "WebApplication14\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T07:06:40.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WebApplication14",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\\u05E9\u05E0\u05D4 \u05D1\\c#_and_mongo_angular\\WebApplication14\\WebApplication14\\WebApplication14.csproj",
+              "RelativeDocumentMoniker": "WebApplication14\\WebApplication14.csproj",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\\u05E9\u05E0\u05D4 \u05D1\\c#_and_mongo_angular\\WebApplication14\\WebApplication14\\WebApplication14.csproj",
+              "RelativeToolTip": "WebApplication14\\WebApplication14.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-13T06:58:58.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\\u05E9\u05E0\u05D4 \u05D1\\c#_and_mongo_angular\\WebApplication14\\WebApplication14\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "WebApplication14\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\\u05E9\u05E0\u05D4 \u05D1\\c#_and_mongo_angular\\WebApplication14\\WebApplication14\\Properties\\launchSettings.json",
+              "RelativeToolTip": "WebApplication14\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-13T06:57:11.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\\u05E9\u05E0\u05D4 \u05D1\\c#_and_mongo_angular\\WebApplication14\\WebApplication14\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplication14\\Program.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\\u05E9\u05E0\u05D4 \u05D1\\c#_and_mongo_angular\\WebApplication14\\WebApplication14\\Program.cs",
+              "RelativeToolTip": "WebApplication14\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T06:24:45.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "WebApplication14.csproj",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\\u05E9\u05E0\u05D4 \u05D1\\c#_and_mongo_angular\\WebApplication14\\WebApplication14\\WebApplication14.csproj",
+              "RelativeDocumentMoniker": "WebApplication14\\WebApplication14.csproj",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\\u05E9\u05E0\u05D4 \u05D1\\c#_and_mongo_angular\\WebApplication14\\WebApplication14\\WebApplication14.csproj",
+              "RelativeToolTip": "WebApplication14\\WebApplication14.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-13T06:28:01.762Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

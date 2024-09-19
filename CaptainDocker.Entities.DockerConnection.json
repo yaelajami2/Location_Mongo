@@ -1,0 +1,13 @@
+[
+  {
+    "__Key__": "8f40d372-ba53-41db-a115-34ad6455dc9e",
+    "Id": "8f40d372-ba53-41db-a115-34ad6455dc9e",
+    "AuthenticationType": "BasicAuth",
+    "BasicAuthCredentialPassword": "",
+    "BasicAuthCredentialUsername": "",
+    "CertificateCredentialFilePath": "",
+    "CertificateCredentialPassword": "",
+    "EngineApiUrl": "",
+    "Name": ""
+  }
+]

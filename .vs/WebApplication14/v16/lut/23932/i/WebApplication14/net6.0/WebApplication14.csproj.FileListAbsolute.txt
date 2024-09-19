@@ -1,0 +1,16 @@
+C:\Users\user1\Desktop\שנה ב\c#_and_mongo_angular\WebApplication14\.vs\WebApplication14\v16\lut\0\b\WebApplication14\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\user1\Desktop\שנה ב\c#_and_mongo_angular\WebApplication14\.vs\WebApplication14\v16\lut\0\b\WebApplication14\bin\Debug\net6.0\appsettings.json
+C:\Users\user1\Desktop\שנה ב\c#_and_mongo_angular\WebApplication14\.vs\WebApplication14\v16\lut\0\b\WebApplication14\bin\Debug\net6.0\WebApplication14.exe
+C:\Users\user1\Desktop\שנה ב\c#_and_mongo_angular\WebApplication14\.vs\WebApplication14\v16\lut\0\b\WebApplication14\bin\Debug\net6.0\WebApplication14.deps.json
+C:\Users\user1\Desktop\שנה ב\c#_and_mongo_angular\WebApplication14\.vs\WebApplication14\v16\lut\0\b\WebApplication14\bin\Debug\net6.0\WebApplication14.runtimeconfig.json
+C:\Users\user1\Desktop\שנה ב\c#_and_mongo_angular\WebApplication14\.vs\WebApplication14\v16\lut\0\b\WebApplication14\bin\Debug\net6.0\WebApplication14.dll
+C:\Users\user1\Desktop\שנה ב\c#_and_mongo_angular\WebApplication14\.vs\WebApplication14\v16\lut\0\b\WebApplication14\bin\Debug\net6.0\ref\WebApplication14.dll
+C:\Users\user1\Desktop\שנה ב\c#_and_mongo_angular\WebApplication14\.vs\WebApplication14\v16\lut\0\i\WebApplication14\net6.0\WebApplication14.csproj.AssemblyReference.cache
+C:\Users\user1\Desktop\שנה ב\c#_and_mongo_angular\WebApplication14\.vs\WebApplication14\v16\lut\0\i\WebApplication14\net6.0\WebApplication14.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Desktop\שנה ב\c#_and_mongo_angular\WebApplication14\.vs\WebApplication14\v16\lut\0\i\WebApplication14\net6.0\WebApplication14.AssemblyInfoInputs.cache
+C:\Users\user1\Desktop\שנה ב\c#_and_mongo_angular\WebApplication14\.vs\WebApplication14\v16\lut\0\i\WebApplication14\net6.0\WebApplication14.AssemblyInfo.cs
+C:\Users\user1\Desktop\שנה ב\c#_and_mongo_angular\WebApplication14\.vs\WebApplication14\v16\lut\0\i\WebApplication14\net6.0\scopedcss\bundle\WebApplication14.styles.css
+C:\Users\user1\Desktop\שנה ב\c#_and_mongo_angular\WebApplication14\.vs\WebApplication14\v16\lut\0\i\WebApplication14\net6.0\WebApplication14.csproj.CopyComplete
+C:\Users\user1\Desktop\שנה ב\c#_and_mongo_angular\WebApplication14\.vs\WebApplication14\v16\lut\0\i\WebApplication14\net6.0\WebApplication14.dll
+C:\Users\user1\Desktop\שנה ב\c#_and_mongo_angular\WebApplication14\.vs\WebApplication14\v16\lut\0\i\WebApplication14\net6.0\ref\WebApplication14.dll
+C:\Users\user1\Desktop\שנה ב\c#_and_mongo_angular\WebApplication14\.vs\WebApplication14\v16\lut\0\i\WebApplication14\net6.0\WebApplication14.genruntimeconfig.cache
