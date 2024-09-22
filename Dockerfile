@@ -33,4 +33,4 @@ ENV ASPNETCORE_URLS=http://+:8080
 EXPOSE 8080
 
 # Run the application
-ENTRYPOINT ["dotnet", "WebApplication14.dll"]
+ENTRYPOINT ["dotnet", "./WebApplication14.dll"]
