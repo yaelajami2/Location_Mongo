@@ -7,8 +7,9 @@ WORKDIR /app
 # Copy the project file and restore dependencies
 COPY *.csproj ./
 RUN dotnet restore
+
 # Copy the rest of the application code
-COPY . ./
+COPY . .
 
 # Publish the application
 RUN dotnet publish -c Release -o /app/publish
@@ -21,9 +22,12 @@ WORKDIR /app
 
 # Copy the build output
 COPY --from=build /app/publish .
+
+# Set environment variable for ASP.NET Core URLs
 ENV ASPNETCORE_URLS=http://+:8080
+
+# Expose port 8080
+EXPOSE 8080
+
 # Run the application
 ENTRYPOINT ["dotnet", "WebApplication14.dll"]
-EXPOSE 80
-EXPOSE 443
-
