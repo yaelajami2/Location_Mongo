@@ -12,7 +12,7 @@ builder.Services.AddCors(options =>
 });
 // ����� ������ Swagger
 builder.Services.AddControllers();
-builder.services.AddSwaggerGen(c =>
+builder.Services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "api", Version = "v1" });
             });
