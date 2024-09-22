@@ -4,6 +4,9 @@ FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 # Set the working directory
 WORKDIR /app
 
+# Set the environment variable to use a custom NuGet package directory
+ENV NUGET_PACKAGES=/root/.nuget/packages
+
 # Copy the project file and restore dependencies
 COPY *.csproj ./
 RUN dotnet restore
@@ -13,7 +16,6 @@ COPY . .
 
 # Publish the application
 RUN dotnet publish -c Release --no-restore -o /app/publish
-
 
 # Use the official .NET runtime image for running the application
 FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS runtime
