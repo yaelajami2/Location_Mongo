@@ -8,7 +8,7 @@ WORKDIR /app
 ENV NUGET_PACKAGES=/root/.nuget/packages
 
 # Copy the project file and restore dependencies
-COPY *.csproj ./
+COPY ./WebApplication14.csproj ./
 RUN dotnet restore
 
 # Copy the rest of the application code
