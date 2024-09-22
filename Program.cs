@@ -12,8 +12,10 @@ builder.Services.AddCors(options =>
 });
 // ����� ������ Swagger
 builder.Services.AddControllers();
-builder.Services.AddSwaggerGen();
-
+builder.services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "api", Version = "v1" });
+            });
 var app = builder.Build();
 
 // Middleware �-Swagger
@@ -23,7 +25,7 @@ if (app.Environment.IsDevelopment())
             app.UseSwaggerUI(c =>
             {
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "api v1");
-                c.RoutePrefix = string.Empty; // הצב את Swagger UI בשורש האפליקציה
+                   c.RoutePrefix = "swagger"; // תוכל לשנות את זה אם תרצה נתיב אחר
             });
 }
 
