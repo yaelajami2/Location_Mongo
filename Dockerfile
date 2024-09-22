@@ -12,7 +12,7 @@ COPY ./WebApplication14.csproj ./
 RUN dotnet restore
 
 # Copy the rest of the application code
-COPY . .
+COPY . ./
 
 # Publish the application
 RUN dotnet publish -c Release --no-restore -o /app/publish
