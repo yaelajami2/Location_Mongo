@@ -12,7 +12,8 @@ RUN dotnet restore
 COPY . .
 
 # Publish the application
-RUN dotnet publish -c Release -o /app/publish
+RUN dotnet publish -c Release --no-restore -o /app/publish
+
 
 # Use the official .NET runtime image for running the application
 FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS runtime
