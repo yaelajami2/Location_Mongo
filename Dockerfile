@@ -8,15 +8,14 @@ WORKDIR /app
 ENV NUGET_PACKAGES=/root/.nuget/packages
 
 # Copy the project file and restore dependencies
-COPY ./WebApplication14.csproj ./
+COPY *.csproj ./
 RUN dotnet restore
 
 # Copy the rest of the application code
 COPY . ./
 
 # Publish the application
-RUN dotnet publish -c Release --no-restore -o /app/publish
-
+RUN dotnet publish -c Release -o /app/publish
 # Use the official .NET runtime image for running the application
 FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS runtime
 
@@ -28,9 +27,9 @@ COPY --from=build /app/publish .
 
 # Set environment variable for ASP.NET Core URLs
 ENV ASPNETCORE_URLS=http://+:8080
-
+ENTRYPOINT ["dotnet", "WebApplication14.dll"]
 # Expose port 8080
 EXPOSE 8080
-
+EXPOSE 80
+EXPOSE 443
 # Run the application
-ENTRYPOINT ["dotnet", "WebApplication14.dll"]
