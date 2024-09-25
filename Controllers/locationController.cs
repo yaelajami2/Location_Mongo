@@ -85,17 +85,14 @@ namespace WebApplication14.Controllers
                 return StatusCode(500, $"Internal server error: {ex.Message}");
             }
         }
-        [HttpPut("updateById/{id}")]
-        public async Task<IActionResult> Update_row(string id,[FromBody] location location)
+        [HttpPut("updateById")]
+        public async Task<IActionResult> Update_row([FromBody] location location)
         {
             try
             {
-                if (id != location.Id)
-                {
-                    return BadRequest("ID mismatch");
-                }
+               
 
-                await _managQuery.UpdateAsync(id, location);
+                await _managQuery.UpdateAsync(location.Id, location);
                 return NoContent(); // Return 204 No Content to indicate success
             }
             catch (Exception ex)

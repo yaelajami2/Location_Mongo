@@ -1,3 +1,7 @@
+
+
+using Microsoft.OpenApi.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add CORS service
@@ -45,5 +49,6 @@ app.UseEndpoints(endpoints =>
 
 app.UseAuthorization();
 app.MapControllers();
+//app.Run();
 app.Run("http://0.0.0.0:8080"); // Ensure the app listens on 8080
 
