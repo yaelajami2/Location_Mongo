@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using MongoDB.Bson;
+using MongoDB.Bson.IO;
 using MongoDB.Driver;
 using System;
 using System.Collections.Generic;
@@ -8,6 +9,8 @@ using System.Linq.Expressions;
 using System.Threading.Tasks;
 using WebApplication14.Models;
 
+using NewtonsoftJson = Newtonsoft.Json.JsonConvert;  // Alias ל-Newtonsoft.Json
+using MongoDBJson = MongoDB.Bson.IO.JsonConvert;
 namespace WebApplication14.Controllers
 {
     [ApiController]
@@ -61,8 +64,10 @@ namespace WebApplication14.Controllers
                     return NotFound("Document not found");
                 }
 
-                // Return serializable object (e.g., a DTO or BsonDocument)
-                return Ok(result.ToJson());
+                // המרת התוצאה לפורמט JSON תקני
+                var jsonResult = NewtonsoftJson.SerializeObject(result);
+
+                return Ok(jsonResult);
             }
             catch (Exception ex)
             {
@@ -93,6 +98,9 @@ namespace WebApplication14.Controllers
                
 
                 await _managQuery.UpdateAsync(location.Id, location);
+                // המרת התוצאה לפורמט JSON תקני
+
+
                 return NoContent(); // Return 204 No Content to indicate success
             }
             catch (Exception ex)

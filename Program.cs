@@ -9,7 +9,7 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowSpecificOrigin", policyBuilder =>
     {
-        policyBuilder.WithOrigins("https://angular-mongo.onrender.com") // Specify allowed origins
+        policyBuilder.WithOrigins("https://angular-mongo.onrender.com", "http://localhost:4200") // Specify allowed origins
                      .AllowAnyMethod() // Allow all HTTP methods (GET, POST, PUT, DELETE, etc.)
                      .AllowAnyHeader(); // Allow all headers
     });
@@ -49,6 +49,6 @@ app.UseEndpoints(endpoints =>
 
 app.UseAuthorization();
 app.MapControllers();
-//app.Run();
-app.Run("http://0.0.0.0:8080"); // Ensure the app listens on 8080
+app.Run();
+//app.Run("http://0.0.0.0:8080"); // Ensure the app listens on 8080
 

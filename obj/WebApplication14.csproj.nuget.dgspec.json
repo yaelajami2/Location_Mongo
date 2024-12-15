@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user1\\Desktop\\שנה ב\\test-small\\WebApplication14\\WebApplication14\\WebApplication14.csproj": {}
+    "C:\\Users\\user1\\Desktop\\Year_b\\test-small\\copy_mongo\\WebApplication14\\WebApplication14\\WebApplication14.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user1\\Desktop\\שנה ב\\test-small\\WebApplication14\\WebApplication14\\WebApplication14.csproj": {
+    "C:\\Users\\user1\\Desktop\\Year_b\\test-small\\copy_mongo\\WebApplication14\\WebApplication14\\WebApplication14.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user1\\Desktop\\שנה ב\\test-small\\WebApplication14\\WebApplication14\\WebApplication14.csproj",
+        "projectUniqueName": "C:\\Users\\user1\\Desktop\\Year_b\\test-small\\copy_mongo\\WebApplication14\\WebApplication14\\WebApplication14.csproj",
         "projectName": "WebApplication14",
-        "projectPath": "C:\\Users\\user1\\Desktop\\שנה ב\\test-small\\WebApplication14\\WebApplication14\\WebApplication14.csproj",
+        "projectPath": "C:\\Users\\user1\\Desktop\\Year_b\\test-small\\copy_mongo\\WebApplication14\\WebApplication14\\WebApplication14.csproj",
         "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user1\\Desktop\\שנה ב\\test-small\\WebApplication14\\WebApplication14\\obj\\",
+        "outputPath": "C:\\Users\\user1\\Desktop\\Year_b\\test-small\\copy_mongo\\WebApplication14\\WebApplication14\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -39,7 +39,13 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net6.0": {
@@ -65,6 +71,10 @@
               "target": "Package",
               "version": "[2.28.0, )"
             },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.7.3, )"
@@ -88,10 +98,29 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.35, 6.0.35]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.35, 6.0.35]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.35, 6.0.35]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.35, 6.0.35]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -100,7 +129,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.133\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.2.24474.11\\RuntimeIdentifierGraph.json"
         }
       }
     }
