@@ -94,6 +94,7 @@ C:\Users\user1\Desktop\Year_b\test-small\copy_mongo\WebApplication14\WebApplicat
 C:\Users\user1\Desktop\Year_b\test-small\copy_mongo\WebApplication14\WebApplication14\bin\Debug\net6.0\MongoDB.Driver.dll
 C:\Users\user1\Desktop\Year_b\test-small\copy_mongo\WebApplication14\WebApplication14\bin\Debug\net6.0\MongoDB.Driver.Core.dll
 C:\Users\user1\Desktop\Year_b\test-small\copy_mongo\WebApplication14\WebApplication14\bin\Debug\net6.0\MongoDB.Libmongocrypt.dll
+C:\Users\user1\Desktop\Year_b\test-small\copy_mongo\WebApplication14\WebApplication14\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\Users\user1\Desktop\Year_b\test-small\copy_mongo\WebApplication14\WebApplication14\bin\Debug\net6.0\SharpCompress.dll
 C:\Users\user1\Desktop\Year_b\test-small\copy_mongo\WebApplication14\WebApplication14\bin\Debug\net6.0\Snappier.dll
 C:\Users\user1\Desktop\Year_b\test-small\copy_mongo\WebApplication14\WebApplication14\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
@@ -128,4 +129,3 @@ C:\Users\user1\Desktop\Year_b\test-small\copy_mongo\WebApplication14\WebApplicat
 C:\Users\user1\Desktop\Year_b\test-small\copy_mongo\WebApplication14\WebApplication14\obj\Debug\net6.0\WebApplication14.genruntimeconfig.cache
 C:\Users\user1\Desktop\Year_b\test-small\copy_mongo\WebApplication14\WebApplication14\obj\Debug\net6.0\ref\WebApplication14.dll
 C:\Users\user1\Desktop\Year_b\test-small\copy_mongo\WebApplication14\WebApplication14\obj\Debug\net6.0\staticwebassets.upToDateCheck.txt
-C:\Users\user1\Desktop\Year_b\test-small\copy_mongo\WebApplication14\WebApplication14\bin\Debug\net6.0\Newtonsoft.Json.dll
