@@ -25,7 +25,7 @@ namespace WebApplication14
            
 
       
-            connection_string = configuration.GetConnectionString("mongodb");
+            connection_string =  Environment.GetEnvironmentVariable("ConnectionStrings__mongodb");
             var client = new MongoClient(connection_string);
             _database = client.GetDatabase(configuration["DatabaseName"]);
 
