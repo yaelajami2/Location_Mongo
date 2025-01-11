@@ -46,7 +46,7 @@ namespace WebApplication14.Controllers
             try
             {
         
-                MailMessage message = new MailMessage("apartment0556722091@gmail.com", "y0556722091@gmail.com");
+                MailMessage message = new MailMessage(Environment.GetEnvironmentVariable("send_mail"), Environment.GetEnvironmentVariable("to_mail"));
 
 
                 message.Subject = "צפו באתר שלך";
@@ -55,7 +55,8 @@ namespace WebApplication14.Controllers
 
                 using (SmtpClient client = new SmtpClient("smtp.gmail.com", 587))
                 {
-                    client.Credentials = new NetworkCredential("tripyaeleden@gmail.com", "anpckkcheirpwdbv");
+                    ;
+                    client.Credentials = new NetworkCredential(Environment.GetEnvironmentVariable("send_mail"),  Environment.GetEnvironmentVariable("pass_mail"));
                     client.EnableSsl = true;
                     client.DeliveryMethod = SmtpDeliveryMethod.Network;
 
